@@ -1,30 +1,30 @@
 {
-  "name": "@nicky-lenaers/ngx-scroll-to-demo",
-  "description": "Demo Application for @nicky-lenaers/ngx-scroll-to package.",
-  "version": "9.0.0",
+  "name": "@monific/ng-scroll-to-demo",
+  "description": "Demo Application for @monific/ng-scroll-to package.",
+  "version": "13.0.0",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve ngx-scroll-to-demo",
+    "start": "ng serve ng-scroll-to-demo",
     "build": "ng build --configuration production",
-    "build:demo": "ng build ngx-scroll-to-demo --configuration production",
+    "build:demo": "ng build ng-scroll-to-demo --configuration production",
     "test": "ng test --watch=false",
-    "test:demo": "ng test ngx-scroll-to-demo --watch=false",
+    "test:demo": "ng test ng-scroll-to-demo --watch=false",
     "test:watch": "ng test --watch=true",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "copy:readme": "copyfiles README.md ./dist/ngx-scroll-to",
+    "copy:readme": "copyfiles README.md ./dist/ng-scroll-to",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "github-releaser": "conventional-github-releaser -p angular -r 0",
-    "lib:package": "yarn build --configuration production && yarn copy:readme && cd ./dist/ngx-scroll-to && yarn pack",
+    "lib:package": "yarn build --configuration production && yarn copy:readme && cd ./dist/ng-scroll-to && yarn pack",
     "prelib:publish": "yarn lib:package",
-    "lib:publish": "cd ./dist/ngx-scroll-to && yarn publish --access=public",
-    "tags": "yarn tag list @nicky-lenaers/ngx-scroll-to"
+    "lib:publish": "cd ./dist/ng-scroll-to && yarn publish --access=public",
+    "tags": "yarn tag list @monific/ng-scroll-to"
   },
   "private": false,
   "contributors": [
     {
-      "name": "Robbert van Caem"
+      "name": "Monific & Robbert van Caem"
     }
   ],
   "author": {
@@ -33,11 +33,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicky-lenaers/ngx-scroll-to.git"
+    "url": "git+https://github.com/JesusTMonific/ng-scroll-to.git"
   },
-  "homepage": "https://github.com/nicky-lenaers/ngx-scroll-to#readme",
+  "homepage": "https://github.com/JesusTMonific/ng-scroll-to#readme",
   "bugs": {
-    "url": "https://github.com/nicky-lenaers/ngx-scroll-to/issues"
+    "url": "https://github.com/JesusTMonific/ng-scroll-to/issues"
   },
   "dependencies": {
     "@angular/animations": "~13.3.9",

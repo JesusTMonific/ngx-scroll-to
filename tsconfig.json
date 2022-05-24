@@ -16,8 +16,8 @@
       "dom"
     ],
     "paths": {
-      "@nicky-lenaers/ngx-scroll-to": [
-        "dist/ngx-scroll-to"
+      "@monific/ng-scroll-to": [
+        "dist/ng-scroll-to"
       ]
     }
   },

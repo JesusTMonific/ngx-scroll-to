@@ -39,8 +39,8 @@
     <td>&nbsp;</td>
     <td>NPM</td>
     <td align="left">
-      <a href="https://www.npmjs.com/package/@nicky-lenaers/ngx-scroll-to" target="_blank">
-        <img src="https://img.shields.io/npm/v/@nicky-lenaers/ngx-scroll-to.svg?style=flat-square" alt="NPM Release">
+      <a href="https://www.npmjs.com/package/@monific/ngx-scroll-to" target="_blank">
+        <img src="https://img.shields.io/npm/v/@monific/ngx-scroll-to.svg?style=flat-square" alt="NPM Release">
       </a>
     </td>
   </tr>
@@ -84,7 +84,7 @@
     <th align="left" valign="top">Downloads</th>
     <td>NPM</td>
     <td>
-      <a href="https://npmjs.org/@nicky-lenaers/ngx-scroll-to" target="_blank">
+      <a href="https://npmjs.org/@monific/ngx-scroll-to" target="_blank">
         <img src="https://img.shields.io/npm/dm/%40nicky-lenaers%2Fngx-scroll-to.svg?style=flat-square" alt="NPM Monthly Downloads">
       </a>
     </td>
@@ -94,7 +94,7 @@
     <td>MIT</td>
     <td>
       <a href="https://github.com/nicky-lenaers/ngx-scroll-to/blob/master/LICENSE" target="_blank">
-        <img src="https://img.shields.io/npm/l/@nicky-lenaers/ngx-scroll-to.svg?style=flat-square" alt="License">
+        <img src="https://img.shields.io/npm/l/@monific/ngx-scroll-to.svg?style=flat-square" alt="License">
       </a>
     </td>
   </tr>
@@ -107,25 +107,25 @@ Current Angular Version
 ## Installation
 Angular 8 and 9
 ```sh
-$ npm install @nicky-lenaers/ngx-scroll-to
+$ npm install @monific/ngx-scroll-to
 ```
 Angular 7
 ```sh
-$ npm install @nicky-lenaers/ngx-scroll-to@'2'
+$ npm install @monific/ngx-scroll-to@'2'
 ```
 Angular 6
 ```sh
-$ npm install @nicky-lenaers/ngx-scroll-to@'1'
+$ npm install @monific/ngx-scroll-to@'1'
 ```
 Angular <= 5.x
 ```sh
-$ npm install @nicky-lenaers/ngx-scroll-to@'<1'
+$ npm install @monific/ngx-scroll-to@'<1'
 ```
 
 ## Setup
 ```typescript
 ...
-import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToModule } from '@monific/ngx-scroll-to';
 ...
 
 @NgModule({
@@ -184,7 +184,7 @@ Besides scrolling to a specific element, it is also possible to scroll a given o
 
 ```typescript
 import { Injectable } from '@angular/core';
-import { ScrollToService, ScrollToConfigOptions } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToService, ScrollToConfigOptions } from '@monific/ngx-scroll-to';
 
 @Injectable()
 export class MyService {
@@ -214,7 +214,7 @@ Just like with the Directive, the Service can be used to scroll to an offset onl
 
 ```typescript
 import { Injectable } from '@angular/core';
-import { ScrollToService, ScrollToConfigOptions } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToService, ScrollToConfigOptions } from '@monific/ngx-scroll-to';
 
 @Injectable()
 export class MyService {
@@ -235,7 +235,7 @@ export class MyService {
 ## Advanced Usage - Directive
 **my.component.ts**
 ```typescript
-import { ScrollToAnimationEasing, ScrollToEvent, ScrollToOffsetMap } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToAnimationEasing, ScrollToEvent, ScrollToOffsetMap } from '@monific/ngx-scroll-to';
 
 @Component({
   selector: 'my-component',
@@ -312,7 +312,7 @@ export class MyComponent {
 
 ```typescript
 import { Injectable } from '@angular/core';
-import { ScrollToService, ScrollToConfigOptions } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToService, ScrollToConfigOptions } from '@monific/ngx-scroll-to';
 
 @Injectable()
 export class MyService {
@@ -385,7 +385,7 @@ In some occasions, one might misspell a target or container selector string. Eve
 **faulty.service.ts**
 ```typescript
 import { Injectable } from '@angular/core';
-import { ScrollToService } from '@nicky-lenaers/ngx-scroll-to';
+import { ScrollToService } from '@monific/ngx-scroll-to';
 
 @Injectable()
 export class FaultyService {
