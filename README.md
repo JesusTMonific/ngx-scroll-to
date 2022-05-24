@@ -4,7 +4,7 @@
 <div align="center">
   <h1>ngx-scroll-to</h1>
   <p>
-    A simple Angular 4+ plugin enabling you to smooth scroll to any element on your page and enhance scroll-based features in your app. Works for <strong>Angular 4+</strong>, both <strong>AoT</strong> and <strong>SSR</strong>. No dependencies.
+    A simple Angular plugin enabling you to smooth scroll to any element on your page and enhance scroll-based features in your app. Works for <strong>Angular 4+</strong>, both <strong>AoT</strong> and <strong>SSR</strong>. No dependencies.
   </p>
   <strong>Support for Angular 9!</strong>
   <br/>
@@ -16,24 +16,6 @@
     <th align="left">Subject</th>
     <th align="left">Type</th>
     <th align="left">Badge</th>
-  </tr>
-  <tr>
-    <th align="left">CI / CD</th>
-    <td align="left">Circle CI</td>
-    <td align="left">
-      <a href="https://circleci.com/gh/nicky-lenaers/ngx-scroll-to" target="_blank">
-        <img src="https://img.shields.io/circleci/project/github/nicky-lenaers/ngx-scroll-to/master.svg?style=flat-square" alt="Circle CI">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <th align="left">Releases</th>
-    <td align="left">GitHub</td>
-    <td align="left">
-      <a href="https://github.com/nicky-lenaers/ngx-scroll-to/releases" target="_blank">
-        <img src="https://img.shields.io/github/release/nicky-lenaers/ngx-scroll-to.svg?style=flat-square" alt="GitHub Release">
-      </a>
-    </td>
   </tr>
   <tr>
     <td>&nbsp;</td>
@@ -80,24 +62,6 @@
       </a>
     </td>
   </tr>
-  <tr>
-    <th align="left" valign="top">Downloads</th>
-    <td>NPM</td>
-    <td>
-      <a href="https://npmjs.org/@monific/ngx-scroll-to" target="_blank">
-        <img src="https://img.shields.io/npm/dm/%40nicky-lenaers%2Fngx-scroll-to.svg?style=flat-square" alt="NPM Monthly Downloads">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <th align="left" valign="top">License</th>
-    <td>MIT</td>
-    <td>
-      <a href="https://github.com/nicky-lenaers/ngx-scroll-to/blob/master/LICENSE" target="_blank">
-        <img src="https://img.shields.io/npm/l/@monific/ngx-scroll-to.svg?style=flat-square" alt="License">
-      </a>
-    </td>
-  </tr>
 </table>
 
 Current Angular Version
@@ -105,7 +69,7 @@ Current Angular Version
 [![npm version](https://img.shields.io/npm/v/%40angular%2Fcore.svg?style=flat-square)](https://www.npmjs.com/~angular)  
 
 ## Installation
-Angular 8 and 9
+Angular > 8
 ```sh
 $ npm install @monific/ngx-scroll-to
 ```

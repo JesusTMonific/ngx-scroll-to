@@ -1,7 +1,7 @@
 {
   "name": "@monific/ng-scroll-to",
   "description": "A simple Angular plugin enabling you to smooth scroll to any element on your page and enhance scroll-based features in your app.",
-  "version": "9.0.0",
+  "version": "13.0.0",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -30,25 +30,21 @@
     "angular8",
     "angular 8",
     "angular9",
-    "angular 9"
+    "angular 9",
+    "angular 10",
+    "angular 11",
+    "angular 12",
+    "angular 13"
   ],
   "author": {
-    "name": "Nicky Lenaers",
-    "email": "nicky@newgameplus.online"
+    "name": "Monific",
+    "email": "npm@monific.com"
   },
   "contributors": [
     {
-      "name": "Robbert van Caem"
+      "name": "Monific"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JesusTMonific/ngx-scroll-to.git"
-  },
-  "homepage": "https://github.com/JesusTMonific/ngx-scroll-to#readme",
-  "bugs": {
-    "url": "https://github.com/JesusTMonific/ngx-scroll-to/issues"
-  },
   "engines": {
     "node": ">=8.0.0",
     "npm": ">=6.0.0"
