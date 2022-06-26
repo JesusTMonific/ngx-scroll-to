@@ -146,6 +146,5 @@
     }},
   "cli": {
     "analytics": "90748fe0-c2f3-428a-a161-bde380a9383d"
-  },
-  "defaultProject": "ng-scroll-to"
+  }
 }
