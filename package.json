@@ -1,7 +1,7 @@
 {
   "name": "@monific/ng-scroll-to-demo",
   "description": "Demo Application for @monific/ng-scroll-to package.",
-  "version": "13.0.0",
+  "version": "14.0.1",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -16,7 +16,7 @@
     "copy:readme": "copyfiles README.md ./dist/ng-scroll-to",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "github-releaser": "conventional-github-releaser -p angular -r 0",
-    "lib:package": "yarn build --configuration production && yarn copy:readme && cd ./dist/ng-scroll-to && yarn pack",
+    "lib:package": "yarn build --configuration production --project ng-scroll-to && yarn copy:readme && cd ./dist/ng-scroll-to && yarn pack",
     "prelib:publish": "yarn lib:package",
     "lib:publish": "cd ./dist/ng-scroll-to && yarn publish --access=public",
     "tags": "yarn tag list @monific/ng-scroll-to"

@@ -1,11 +1,21 @@
-<a name="13.0.0"></a>
-# [13.0.0](https://github.com/JesusTMonific/ngx-scroll-to/compare/9.0.0...13.0.0) (2022-05-24)
+<a name="14.0.0"></a>
+# [14.0.0](https://github.com/JesusTMonific/ngx-scroll-to/compare/9.0.0...14.0.0) (2022-06-26)
 
 
 ### Features
 
-* **angular:** Supports angular > 9
-  
+* **angular:** update to v10 ([70b5d22](https://github.com/JesusTMonific/ngx-scroll-to/commit/70b5d22))
+* **angular:** update to v11 ([c0b2b24](https://github.com/JesusTMonific/ngx-scroll-to/commit/c0b2b24))
+* **angular:** update to v12 ([b36382b](https://github.com/JesusTMonific/ngx-scroll-to/commit/b36382b))
+* **angular:** update to v13 ([5236272](https://github.com/JesusTMonific/ngx-scroll-to/commit/5236272))
+* **chore:** change docs ([47f9505](https://github.com/JesusTMonific/ngx-scroll-to/commit/47f9505))
+* **chore:** updated readme ([1edbb9a](https://github.com/JesusTMonific/ngx-scroll-to/commit/1edbb9a))
+* **core:** update angular version ([4cd7863](https://github.com/JesusTMonific/ngx-scroll-to/commit/4cd7863))
+* **package:** update home npm ([3b6df8b](https://github.com/JesusTMonific/ngx-scroll-to/commit/3b6df8b))
+* **yarn:** version changed to 1.22.19 ([78288af](https://github.com/JesusTMonific/ngx-scroll-to/commit/78288af))
+
+
+
 <a name="9.0.0"></a>
 # [9.0.0](https://github.com/JesusTMonific/ngx-scroll-to/compare/3.0.1...9.0.0) (2020-04-23)
 
